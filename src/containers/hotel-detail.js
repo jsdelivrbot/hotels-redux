@@ -4,25 +4,23 @@ import { connect } from 'react-redux';
 class HotelDetail extends Component {
 	render() {
 		if (!this.props.hotel) {
-			return <div>Select a hotel you want to explore.</div>;
+			return <div classp="prompt">Select a hotel you want to explore.</div>;
 		}
 
 		return (
-			<div>
+			<div className="details">
 				<h3>Welcome to:</h3>
 				<div>
 					<h1>{this.props.hotel.name}</h1>
-					<h2>Stars: {this.props.hotel.stars}</h2>
-					<p>What a gem! It's been heralded as
-						 one of the best hotels in the city!
-						 enjoy your stay!
+					<h4>{this.props.hotel.address}</h4>
+					<h4>Stars: {this.props.hotel.stars}</h4>
+					<p>{this.props.hotel.description}
 					</p>
 				</div>
 			</div>
 		);
 	}
 }
-
 
 function mapStateToProps(state){
 	// Whatever is returned will show up as props

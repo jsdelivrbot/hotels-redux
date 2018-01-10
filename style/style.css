@@ -1,0 +1,40 @@
+/*  color: #E8E3D2; lite_cream
+    color: #d9a7c7; cherry-blossum
+    color: #C8A5A6; rose-tan
+    color: #CEAB72; gold
+    color: #8D8A8D; flat_grey
+    color: #425355; darker_grey
+    color: #396066; deep_aqua
+    color: #E6DECE; creamy
+    color: #D9CFCA; - taupe
+*/
+
+.main_background {
+  background-image: repeating-linear-gradient(90deg, rgba(48, 114, 124, 0.11) 0, rgba(48, 114, 124, 0.11) 6.5px, transparent 0, transparent 13px), repeating-linear-gradient(90deg, rgba(206, 171, 114, 0.21) 0, rgba(206, 171, 114, 0.21) 35px, transparent 0, transparent 70px), repeating-linear-gradient(90deg, transparent 0, transparent 33.5px, rgba(255, 255, 255, 0.17) 0, rgba(255, 255, 255, 0.17) 67px), repeating-linear-gradient(90deg, transparent 0, transparent 26.5px, rgba(255, 255, 255, 0.19) 0, rgba(255, 255, 255, 0.19) 53px);
+  background-color: #30727c; 
+}
+
+.container {
+  background: #642B73;
+  background: -webkit-linear-gradient(to right, #C6426E, #642B73);
+  background: linear-gradient(to right, #C8A5A6, #642B73);
+}
+
+li.list-group-item {
+    background-color: #D9CFCA;
+    background-color: #425355;
+    color: #8D8A8D;
+    border: none;
+}
+
+li.list-group-item:hover {
+	  background-color: #D9CFCA;
+	  transition: background-color 0.5s ease;
+}
+
+.main_map {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+

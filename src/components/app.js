@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import HotelList from '../containers/hotels-list';
 import HotelDetail from '../containers/hotel-detail';
+import {ContainerMap}  from '../containers/container-map';
+
 
 export default class App extends Component {
   render() {
@@ -9,6 +11,7 @@ export default class App extends Component {
       <div>
       	<HotelList />
       	<HotelDetail />
+      	<ContainerMap />
       </div>
     );
   }
